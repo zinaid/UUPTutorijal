@@ -7,10 +7,11 @@ int main()
     // Pokazivac je varijabla koja sprema memorijsku adresu druge varijable
     string *pokazivac = &hrana;
 
-    // Pokazivac ce ispisati memorijsku adresu kao i &hrana
+    // Pokazivac ce ispisati memorijsku adresu kao i &hrana, ali isto tako pokazivac ima i svoju adresu
     cout << hrana << endl;
     cout << &hrana << endl;
     cout << pokazivac << endl;
+    cout << &pokazivac << endl;
 
     // Dereferenciranje
     cout << *pokazivac << endl;
